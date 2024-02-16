@@ -3,6 +3,7 @@
 function elevarAlCuadrado(num) {
   // Retorna el valor de "num" elevado al cuadrado.
   // Tu código:
+  return num * num;
 }
-
+console.log(elevarAlCuadrado(8));
 module.exports = elevarAlCuadrado;
