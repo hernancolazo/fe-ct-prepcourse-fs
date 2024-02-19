@@ -17,5 +17,5 @@ function esNumeroPrimo(numero) {
   return true;
 }
 
-console.log(esNumeroPrimo(7));
+console.log(esNumeroPrimo(6));
 module.exports = esNumeroPrimo;
