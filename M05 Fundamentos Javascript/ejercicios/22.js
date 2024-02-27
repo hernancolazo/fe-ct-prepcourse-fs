@@ -4,6 +4,5 @@ function resta(x, y) {
   // Tu código:
   return x - y;
 }
-console.log(resta(20, 8));
 
 module.exports = resta;

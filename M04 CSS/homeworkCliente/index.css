@@ -1,0 +1,118 @@
+body {
+    width: 1920;
+    height: 1150;
+    background-color: rgb(0, 0, 0);
+
+    border: 2px;
+    color: white;
+}
+
+main{
+    border: 2px;
+    color: antiquewhite;
+}
+
+#caja1 {
+    width: 781;
+    height: 55;
+    flex-shrink: 0;
+    background-color: #FD1EBD;
+}
+
+#cajaamarilla {
+    width: 643;
+    height: 55;
+    flex-shrink: 0;
+    background-color: #FFFD38;
+}    
+
+
+#contenedor-practice-autor {
+    width: 725px;
+    height: 746px;
+    flex-shrink: 0;
+    margin-left: 61px;
+    border-left: 2px solid white;
+    padding-left: 71px;
+
+  
+}
+
+#contenedor-practice-autor h1 {
+    color: gray;
+        font-size: 50.4px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        font-family: "Inter", sans-serif;
+
+}
+
+#contenedor-practice-autor span {
+
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 289.846px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#UI {
+    border: 2px solid palegreen;
+    position: relative;
+    bottom: 45px;
+}
+
+
+#practice {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 163.445px;
+    font-style:  normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#disegnlove {
+    color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 43.493px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+}
+
+#contenedorespiral{
+    display: flex;
+
+}
+
+#contenedorespiral img {
+    width: 55px;
+    height: 55px;
+    margin-left: 17px;
+}
+
+#autor {
+
+    color: #FFFD38;
+    font-family:'Courier New', Courier, monospace ;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+
+}
+
+#contenedor-autor img {
+    width: 60px;
+    height: 60px;
+}
+
+#contenedor-autor {
+
+    display: flex;
+}

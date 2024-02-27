@@ -3,9 +3,15 @@ function esFechaValida(fecha) {
   // Comprueba si este corresponde a una fecha válida.
   // Si es así, retorna true, sino retorna false.
   // Tu código:
-  const fechaObjeto = new Date(fecha);
-  return fechaObjeto.toString() !== 'Invalid Date' && fechaObjeto.toISOString().slice(0, 10) === fecha;
+
+  if (fecha.toString() == "Invalid Date") {
+    return false;
+  }
+  if (fecha instanceof Date) {
+    return true;
+  } else return false;
 }
-  console.log(esFechaValida('2023-12-31'));
+
+
 
 module.exports = esFechaValida;

@@ -3,12 +3,14 @@ function esNuloOIndefinido(valor) {
   // Si este valor es null o undefined, retorna true.
   // De lo contrario, retorna false.
   // Tu código:
-  return valor === null || valor === undefined;
-  }
+  if (valor === null) {
+    return true;
+  } else if (valor === undefined) {
+    return true;
+  } else return false;
+}
 console.log(esNuloOIndefinido(undefined));
 
 
 
-
- 
-module.exports = esNuloOIndefinido;
+  module.exports = esNuloOIndefinido;

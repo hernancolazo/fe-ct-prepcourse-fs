@@ -3,6 +3,6 @@ function obtenerAreaRectangulo(alto, ancho) {
   // Tu código:
   return alto * ancho;
 }
-console.log(obtenerAreaRectangulo(5, 10));
+
 
 module.exports = obtenerAreaRectangulo;

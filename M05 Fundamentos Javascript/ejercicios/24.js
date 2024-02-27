@@ -4,6 +4,6 @@ function divide(x, y) {
   // Tu código:
   return x / y;
 }
-console.log(divide(20, 5));
+
 
 module.exports = divide;

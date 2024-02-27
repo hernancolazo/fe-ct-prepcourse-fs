@@ -4,6 +4,6 @@ function obtenerResto(x, y) {
   // Tu código:
   return x % y;
 }
-console.log(obtenerResto(100, 8));
+
 
 module.exports = obtenerResto;

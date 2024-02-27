@@ -6,5 +6,4 @@ function redondearNumero(num) {
    return Math.round(num);
 }
 
-console.log(redondearNumero(67.6));
 module.exports = redondearNumero;

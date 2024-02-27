@@ -5,5 +5,5 @@ function numeroRandom() {
   // Tu código:
   return Math.random();
 }
-console.log(numeroRandom());
+
 module.exports = numeroRandom;
