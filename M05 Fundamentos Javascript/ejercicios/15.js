@@ -9,6 +9,7 @@ function menosQueNoventa(num) {
   }
   
   //return num < 90 ? true : false
+  // de esta forma codea un seniors
 }
 
 

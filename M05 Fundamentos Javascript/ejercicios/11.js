@@ -18,8 +18,6 @@ function esMayorDeEdad(fechaNacimiento) {
     return false;
   }
 
-
-
 }
 
 module.exports = esMayorDeEdad;

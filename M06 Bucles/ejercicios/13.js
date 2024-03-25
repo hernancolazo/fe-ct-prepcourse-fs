@@ -5,8 +5,13 @@ function esEntero(num) {
   // Ejemplo: (-10) ---> true
   // De lo contrario, retorna false.
   // Tu código:
-  
-  return num === Math.trunc(num);
+  if (num % 1 === 0) {
+    return true
+  } else {
+    return false
+  }
+
+  // return num === Math.trunc(num);
     
     
 }

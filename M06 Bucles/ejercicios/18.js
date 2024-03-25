@@ -12,4 +12,4 @@ function productoEntreNúmeros(a, b) {
   return acumulador;
 }
 
-module.exports = productoEntreNúmeros;
+module.exports = productoEntreNúmeros; 

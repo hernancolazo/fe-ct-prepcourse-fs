@@ -33,6 +33,18 @@
 // } 
 
 //--------------------------------------------------------------------------------
+// function saludar(nombre) {
+//     return "hola" + nombre;
+// }
 
+// function hola() {
+//     var primerNombre = "hernan";
+//     var resultado = saludar(nombre);
+//     console.log(resultado);
+// }
+// hola();  
 
+for (var i = 0; i <= 20; i++){
+    console.log(i);
+}
 
